@@ -1,5 +1,11 @@
 # Login pages
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/login-preview-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/images/login-preview-light.png">
+  <img alt="Sign-in, create-account and reset-password pages" src="docs/images/login-preview-dark.png">
+</picture>
+
 > Template-friendly starter: three plain HTML/CSS/JS auth screens with validation, accessibility and dark/light theme. Use it as a starting point, not as a production auth system.
 
 Three small, accessible auth pages in plain HTML, CSS and JavaScript. No framework, no dependencies, no build step.
@@ -13,6 +19,9 @@ Three small, accessible auth pages in plain HTML, CSS and JavaScript. No framewo
 **Live:** https://bizaza-devs.github.io/login-pages/
 
 ## What it does
+
+<img alt="Inline validation on the sign-in page, dark and light theme" src="docs/images/login-validation.png" width="560">
+
 - Client-side validation with inline error messages (email format, minimum password length, matching passwords, terms)
 - Password strength hint on the create-account page; the reset page uses neutral wording so a real backend would not reveal which emails have accounts
 - Show / hide password toggle
